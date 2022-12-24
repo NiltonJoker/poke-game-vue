@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonPage Component Debe de hacer match con el snapshot cuando cargan los pokemons 1`] = `
+<!-- <h1 v-if="!pokemon">Espere por favor...</h1> -->
+<div class="pokemon-page fade-in"><img class="title-page" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/375px-International_Pok%C3%A9mon_logo.svg.png" alt="">
+  <div class="pokemon-question">
+    <div>
+      <p class="text-success">Aciertos: 0</p>
+      <p class="text-error">Desaciertos: 0</p>
+    </div><img class="pokeball-img" src="https://i.pinimg.com/originals/09/da/92/09da926c2b94d95008a9e3b2f60bfdd3.png" alt="">
+  </div>
+  <h2>¿Quién es ese Pokemón?</h2>
+  <div class="pokemon-container"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" class="hidden-pokemon" alt="pokemon">
+    <!--v-if-->
+  </div>
+  <div class="options-container">
+    <ul class="fade-in">
+      <li>bulbasaur</li>
+      <li>ivysaur</li>
+      <li>venusaur</li>
+      <li>charmander</li>
+    </ul>
+  </div>
+  <!--v-if-->
+</div>
+`;
+
+exports[`PokemonPage Component debe de hacer match con el snapshot 1`] = `
+<!-- <h1 v-if="!pokemon">Espere por favor...</h1> -->
+<pokemon-loading-stub></pokemon-loading-stub>
+`;
